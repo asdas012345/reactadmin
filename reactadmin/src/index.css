@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+html,body,#root{
+  height:100%;
+}
+.ant-layout{
+  height:100%;
+}
+.logo {
+  width: 100%;
+  height: 60px;
+  background-color:rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+  position:relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background: url('https://www.baidu.com/img/flexible/logo/pc/result@2.png') no-repeat; */
+  /* background-size: cover; */
+}
+.logo img{
+  width: 60%;
+  height: 60%; 
+  display:block;
+  margin:auto;
+  transition: .5s linear;
+  position:absolute;left:0;right:0;top:0;bottom:0;
+}
+
+.logo:hover img{
+  transform: scale(1.3);
+}
